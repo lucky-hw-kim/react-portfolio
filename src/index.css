@@ -5,8 +5,8 @@ html {
 
 body {
   margin: 0;
-  font-family: 300 11px/1.4 'Hevetica Neue', 'San-serif';
-  color: rgb(255, 255, 255);
+  font: 400 11px/1.4 'Helvetica Neue', 'San-serif';
+  color: #f4f1de;
   background: #3d405b;
   overflow: hidden;
   display: block;
