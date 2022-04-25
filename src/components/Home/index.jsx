@@ -28,13 +28,12 @@ const Home = () => {
     '.',
   ];
 
-  // useEffect(() => {
-  //   return (setTimeout(() => {
-  //     setLetterClass('text-animate-hover')
-  //   }, 4000)
-  //   )
-  // }, [])
-
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setLetterClass('text-animate-hover')
+     }, 3000);
+    return () => clearTimeout(timeout);
+   },[]);
 
   return (
     <div className="container home-page">
