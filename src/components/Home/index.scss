@@ -32,8 +32,8 @@
       position: absolute;
       margin-top: 18px;
       margin-left: 20px;
-      animation: fadeIn 1s 1.7s backwards;
       opacity: 0.6;
+      animation: fadeIn 1s 1.7s backwards;
     }
     img {
       width: 32px;
@@ -61,5 +61,16 @@
     letter-spacing: 4px;
     font-family: sans-serif;
     text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #f2cc8f;
+    margin-top: 25px;
+    float: left;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover {
+      background-color: #f2cc8f;
+      color: #3d405b;
+    }
   }
 }
