@@ -1,0 +1,78 @@
+.contact-form {
+  width: 100%;
+  margin-top: 20px;
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin-bottom: 10px;
+      overflow: hidden;
+      display: block;
+      position: relative;
+      opacity: 0;
+      animation: fadeInUp 2s 2s;
+      animation-fill-mode: forwards;
+      clear: both;
+    }
+
+    li.half {
+      width: 49%;
+      margin-left: 2%;
+      float: left;
+      clear: none;
+      
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+    input[type='text'],
+    input[type='email'] {
+      width: 100%;
+      border: 0;
+      background: #8388bb92;
+      height: 50px;
+      font-size: 18px;
+      padding: 0 20px;
+      box-sizing:border-box;
+  }
+
+  textarea {
+    width: 100%;
+    border: 0;
+    background: #8388bba7;
+    height: 50px;
+    font-size: 18px;
+    padding: 20px;
+    min-height: 150px;
+    box-sizing: border-box;
+  }
+  .flat-button {
+    color: #F2CC8F;
+    background: 0 0;
+    font: 12px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 4px;
+    float: right;
+  }
+  ::placeholder {
+    color: rgba(255, 255, 255, 0.57);
+    font-family: 'Hevetica Neue'
+  }
+}
+#email-lotti{
+ display: flex;
+ justify-content: end;
+ margin-top: 13%;
+ margin-right: 13%;
+ opacity: 0;
+ animation: fadeInUp 2s 2s;
+ animation-fill-mode: forwards;
+}

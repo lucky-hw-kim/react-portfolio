@@ -1,6 +1,7 @@
 $primary-color: #F2CC8F;
 
 @import 'animate.css';
+@import '~loaders.css/src/animations/pacman.scss';
 
 @font-face {
   font-family: 'Hevetica Neue';
@@ -15,6 +16,20 @@ $primary-color: #F2CC8F;
 @font-face {
   font-family: 'Coolvetica';
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+}
+
+.loader-active {
+  display: blacok;
+  position: absolute;
+  left:0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  animation: fadeOut 0.8s 1s;
+  animation-fill-mode: forwards;
 }
 
 
